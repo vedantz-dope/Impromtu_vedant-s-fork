@@ -31,7 +31,7 @@ Now, on the terminal, navigate to desktop and writeup the following commands:
 ![Terminal Instructions](/DontTouch/terminal.png) <br>
 
 ### You are ready to run the environment!!!
-**Now on the terminal writeup: <br>cd Terminal <br>npm install <br>node app.mjs**
+**Now on the terminal writeup: <br>cd Impromptu <br>npm install <br>node app.mjs**
 <br>
 You will have the following output on the terminal: <br>
 *Application Started in Development Phase on you Localhost at Port:8000*
