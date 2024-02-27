@@ -17,10 +17,10 @@ ___
 ___
 # How To Set Up Impromptu On Your Localhost:
 *To set up Impromptu on you localhost you would need to have NodeJS and MongoDB(at 127.0.0.1:27017) installed on your system if you dont have NodeJS installed, download it from https://nodejs.org/en/download and follow the instructions given on the page*
-![Node JS Documentation Page](/Impromptu/Don't%20Touch/NodeJSDownloadPage.png) <br>
+![Node JS Documentation Page](/DontTouch/NodeJSDownloadPage.png) <br>
 
 Once NodeJS is installed in the system, go to https://github.com/Shaurysingh716/Impromptu, fork the repository and copy the https link to clone the repository in your system and to set up the environment
-![Https Clone Page](/Impromptu/Don't%20Touch/clone%20https.png) <br>
+![Https Clone Page](/DontTouch/clonehttps.png) <br>
 
 Now, on the terminal, navigate to desktop and writeup the following commands:
 **mkdir Impromptu**
@@ -28,7 +28,7 @@ Now, on the terminal, navigate to desktop and writeup the following commands:
 *Now paste the https link int the following manner (that was copied on the github repo)* **git clone https://github.com/Shaurysingh716/Impromptu.git**
 <br>
 *I have posted a screenshot for the same but not on desktop as I already have it cloned there*
-![Terminal Instructions](/Impromptu/Don't%20Touch/terminal.png) <br>
+![Terminal Instructions](/DontTouch/terminal.png) <br>
 
 ### You are ready to run the environment!!!
 **Now on the terminal writeup: <br>cd Terminal <br>npm install <br>node app.mjs**
@@ -38,4 +38,4 @@ You will have the following output on the terminal: <br>
 
 Now, open your browser and go to **localhost:8000** <br>
 !!You are Ready to Run the Program!!
-![Localhost](/Impromptu/Don't%20Touch/localhost.png)
+![Localhost](/DontTouch/localhost.png)
