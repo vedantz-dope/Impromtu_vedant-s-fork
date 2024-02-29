@@ -1,0 +1,13 @@
+@media screen and (max-width:1265px) {
+    .slide-logo-img{
+        object-fit: contain;
+        width: 44px;
+        height: 44px;
+    }
+    #nav-top{
+        justify-content: center;
+    }
+    .nav-main-left{
+        width: 15%;
+    }
+}

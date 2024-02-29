@@ -3,6 +3,31 @@
     margin: 0;
     padding: 0;
 }
+/* Widths and Heights */
+.width-full-relative{
+    width: 100%;
+}
+.width-full-screen{
+    width: 100vw;
+}
+.height-full-relative{
+    height: 100%;
+}
+.height-quarter-relative{
+    height: 25%;
+}
+.height-half-relative{
+    height: 50%;
+}
+.height-10-r{
+    height: 10%;
+}
+.height-80-r{
+    height: 80%;
+}
+.height-full-screen{
+    height: 100vh;
+}
 /* Margins and Padding */
 .padding-main{
     padding: 16px 12px;
@@ -15,6 +40,9 @@
 }
 .padding-btn{
     padding: 5px 8px;
+}
+.padding-list-element{
+    padding: 8px;
 }
 .margin-main{
     margin: 20px;
@@ -31,6 +59,13 @@
 .margin-right-extra{
     margin-right: 35px;
 }
+/* Lists */
+.list-no-style{
+    list-style: none;
+}
+.list-font-size{
+    font-size: 18px;
+}
 /* Display Styling */
 .contents-only{
     display: contents;
@@ -40,6 +75,13 @@
 }
 .primary-grid{
     display: grid;
+}
+.primary-table{
+    display: inline-table;
+}
+/* Flex Styling */
+.flex-column{
+    flex-direction: column;
 }
 /* Font Styling */
 .font-inherit{
@@ -69,6 +111,25 @@
 .ionicon-logo-size{
     font-size: larger;
 }
+/* Border Styling and Backgrounds*/
+.border-none{
+    border: none;
+}
+.border-right{
+    border-right: 0.5px solid rgba(39, 37, 37, 0.79);
+}
+.border-right-fade{
+    border-right-color: rgb(219, 219, 219);
+}
+.border-round-sys3{
+    border-radius: 3px;
+}
+.border-round-sys10{
+    border-radius: 10px;
+}
+.background-main{
+    background-color: rgb(255,255,255);
+}
 /* Allignment and Orientation */
 .justify-center{
     justify-content: center;
@@ -76,13 +137,32 @@
 .justify-end{
     justify-content: end;
 }
+.justify-flex-start{
+    justify-content: flex-start;
+}
 .align-center{
     align-items: center;
 }
 /* Positions */
+.float-25{
+    float: left;
+    width: 25%;
+}
+.float-16{
+    float: left;
+    width: 16%;
+}
+.float-68{
+    float: left;
+    width: 68%;
+}
 .float-50{
     float: left;
     width: 50%;
+}
+/* Cursor */
+.pointer{
+    cursor: pointer;
 }
 /* Buttons */
 .btn-primary{

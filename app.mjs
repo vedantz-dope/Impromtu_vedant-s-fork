@@ -40,9 +40,13 @@ app.post('/',(req,res)=>{
     let body = new userData(userDataObject);
     body.save().then(()=>{
         console.log("Item Saved To Database");
-        res.status(200).send("Item Saved");
+        res.status(200).redirect("/user");
     });
 });
+
+app.get('/user',(req,res)=>{
+    res.status(200).render('index.pug') 
+})
 
 app.listen(port, ()=>{
     console.log(`Application Started in Development Phase on you Localhost at Port:${port}`);

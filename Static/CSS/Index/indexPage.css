@@ -1,0 +1,9 @@
+.slide-logo-img{
+    object-fit: cover;
+    width: 150px;
+    height: 50px;
+}
+.list-nav:hover{
+    background-color: rgba(216, 228, 228, 0.508);
+    transition: 0.5s;
+}
