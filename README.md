@@ -1,4 +1,4 @@
-# Impromptu - Gallery Based Social Media Application
+# Impromptu - Facial recognition Based Gallery and Social Media Application
 ___
 ## Repo Manager:
 **Shaury Singh : 22BCE10019**
