@@ -38,4 +38,5 @@ You will have the following output on the terminal: <br>
 
 Now, open your browser and go to **localhost:8000** <br>
 !!You are Ready to Run the Program!!<br>
-![Localhost](/DontTouch/localhost.png)
+![image](https://github.com/Shaurysingh716/Impromptu/assets/107102096/fd833e5c-1920-40b7-935a-305e8e01bab5)
+
