@@ -1,0 +1,25 @@
+@media screen and (max-width: 875px) {
+    .impromptu-concept{
+        z-index: -2;
+        opacity: 0;
+        position: absolute;
+    }
+    .main{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .form{
+        border: none;
+        margin-top: 35px;
+    }
+    .new-acc{
+        border: none;
+    }
+    .navbar{
+        justify-content: center;
+        z-index: -2;
+        position: absolute;
+        opacity: 0;
+    }
+}
