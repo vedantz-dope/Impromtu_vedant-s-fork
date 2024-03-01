@@ -2,6 +2,10 @@
 ___
 ## Repo Manager:
 **Shaury Singh : 22BCE10019**
+___
+## Repo Supervisor:
+**Dr. Vijendra Singh Brahme**
+___
 ## Contributors: 
 **Suyash Bandi : 22BCE11078** <br>
 **Vedant Ere : 22BCE11073** <br>
