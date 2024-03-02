@@ -1,8 +1,5 @@
 # Progress Report - Impromptu
-___
-<br>
 ## Project Team
-___
 **Project Lead : Suyash Bandi(22BCE11078)**
 **Shaury Singh (22BCE10019)**
 **Vedant Ere (22BCE11073)**
