@@ -2,6 +2,10 @@ import express from "express";
 import path from "path";
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import session from "express-session";
+import cookieParser from "cookie-parser";
+import { v4 as uuidv4 } from "uuid";
+import generateRandomSequence from "./generateRandomSessionId.mjs";
 const app = express();
 const port = 8000;
 
@@ -36,6 +40,20 @@ app.set('view engine', 'pug');
 const __dirname = dirname(fileURLToPath(import.meta.url));
 app.set('views', path.join(__dirname,'views'));
 app.use(express.urlencoded({ extended: true }));
+
+
+const oneDay = 60*60*24*1000;
+function genid(req) {
+    return uuidv4();
+}
+app.use(session({
+    genid: genid,
+    secret: 'dGhpc2lzdGhlc2VjcmV0a2V5ZG9udHNoYXJld2l0aGFueW9uZQo=',
+    saveUninitialized: true,
+    cookie: {maxAge: oneDay},
+    resave: false
+}));
+
 
 app.get('/',(req,res)=>{
     res.status(200).render('login.pug');
