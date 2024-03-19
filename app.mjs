@@ -20,11 +20,20 @@ mongoose.connect(`mongodb://127.0.0.1:27017/Impromptu`,{
 });
 
 const userDataSchema = new mongoose.Schema({
-    UserName: String,
+    UserName : String,
+    Password : String
+})
+
+const userData = new mongoose.model('UserLoginData',userDataSchema);
+
+const userInfoSchema = new mongoose.Schema({
+    MobileNumber: Number,
+    FullName: String,
+    Username: String,
     Password: String
 });
-const userData = new mongoose.model('userData',userDataSchema);
 
+const Userinfo = new mongoose.model('UserInfoData',userInfoSchema);
 
 app.use('/static',express.static('static'));
 app.set('view engine', 'pug');
@@ -66,6 +75,26 @@ app.get('/user',(req,res)=>{
     res.status(200).render('index.pug') 
 })
 
+app.get('/signup',(req,res)=>{
+    res.status(200).render('signup.pug')
+})
+
+
+app.post('/signup',(req,res)=>{
+    let userDataObject = {
+        MobileNumber : req.body.MobileNumber,
+        FullName : req.body.FullName,
+        UserName : req.body.UserName,
+        Password : req.body.Password
+    };
+    let body = new Userinfo(userDataObject);
+    body.save().then(()=>{
+        console.log("Item Saved To Database");
+        res.status(200).redirect("/user");
+    });
+} )
+
 app.listen(port, ()=>{
     console.log(`Application Started in Development Phase on you Localhost at Port:${port}`);
 });
+
