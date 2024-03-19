@@ -2,6 +2,10 @@
 ___
 ## Repo Manager:
 **Shaury Singh : 22BCE10019**
+___
+## Repo Supervisor:
+**Dr. Vijendra Singh Brahme**
+___
 ## Contributors: 
 **Suyash Bandi : 22BCE11078** <br>
 **Vedant Ere : 22BCE11073** <br>
@@ -16,10 +20,10 @@ ___
 
 ___
 # How To Set Up Impromptu On Your Localhost:
-*To set up Impromptu on you localhost you would need to have NodeJS and MongoDB(at 127.0.0.1:27017) installed on your system if you dont have NodeJS installed, download it from https://nodejs.org/en/download and follow the instructions given on the page*
+*To set up Impromptu on you localhost you would need to have NodeJS and MongoDB(at 127.0.0.1:27017) installed on your system if you dont have NodeJS installed, download it from https://nodejs.org/en/download and follow the instructions given on the page* <br>
 ![Node JS Documentation Page](/DontTouch/NodeJSDownloadPage.png) <br>
 
-Once NodeJS is installed in the system, go to https://github.com/Shaurysingh716/Impromptu, fork the repository and copy the https link to clone the repository in your system and to set up the environment
+Once NodeJS is installed in the system, go to https://github.com/Shaurysingh716/Impromptu, fork the repository and copy the https link to clone the repository in your system and to set up the environment<br>
 ![Https Clone Page](/DontTouch/clonehttps.png) <br>
 
 Now, on the terminal, navigate to desktop and writeup the following commands:
@@ -27,7 +31,7 @@ Now, on the terminal, navigate to desktop and writeup the following commands:
 **cd Impromptu** 
 *Now paste the https link int the following manner (that was copied on the github repo)* **git clone https://github.com/Shaurysingh716/Impromptu.git**
 <br>
-*I have posted a screenshot for the same but not on desktop as I already have it cloned there*
+*I have posted a screenshot for the same but not on desktop as I already have it cloned there*<br>
 ![Terminal Instructions](/DontTouch/terminal.png) <br>
 
 ### You are ready to run the environment!!!
@@ -37,5 +41,6 @@ You will have the following output on the terminal: <br>
 *Application Started in Development Phase on you Localhost at Port:8000*
 
 Now, open your browser and go to **localhost:8000** <br>
-!!You are Ready to Run the Program!!
-![Localhost](/DontTouch/localhost.png)
+!!You are Ready to Run the Program!!<br>
+![image](https://github.com/Shaurysingh716/Impromptu/assets/107102096/fd833e5c-1920-40b7-935a-305e8e01bab5)
+

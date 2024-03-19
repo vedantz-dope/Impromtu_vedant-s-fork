@@ -1,0 +1,15 @@
+@media screen and (max-width: 400px) {
+  .form{
+      border: none;
+      margin-top: 35px;
+  }
+  .new-acc{
+    border: none;
+  }
+  .navbar{
+    justify-content: center;
+    z-index: -2;
+    position: absolute;
+    opacity: 0;
+  }
+}
